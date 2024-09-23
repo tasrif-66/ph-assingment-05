@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog || Donate Bangladesh</title>
+
+  <!-- DaisyUI  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font added -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family:lexend ;">
+  <!-- nav section -->
+  <header>
+    <header class="sticky top-0 z-10	">
+      <nav class="  bg-orange-100 bg-opacity-50 backdrop-blur-lg shadow-md w-full py-4">
+        <div
+          class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 space-y-4 sm:space-y-0">
+
+          <!-- Left Section: Blog Button -->
+          <div class="flex-shrink-0">
+            <a href="./index.html" target="_blank"
+              class="bg-lime-200 text-black font-semibold py-2 px-4 rounded-lg hover:bg-lime-300">
+              Home
+            </a>
+          </div>
+
+          <!-- Middle Section -->
+          <div class="flex flex-col items-center">
+            <!-- Logo in the Center -->
+            <div class="flex items-center space-x-2">
+              <img src="./assets/logo.png" alt="Donate Bangladesh" class="h-8 w-8">
+              <span class="text-gray-700 font-bold text-lg">Donate Bangladesh</span>
+            </div>
+
+
+
+          </div>
+
+          <!-- Right Section: Account Balance -->
+          <div class="flex items-center space-x-2">
+            <!-- Coin Icon -->
+            <img src="./assets/coin.png" alt="Coin Icon" class="h-6 w-6">
+            <!-- Balance Amount -->
+            <span class="text-gray-700 font-semibold">55000 BDT</span>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+  </header>
+  <!-- FAQ section -->
+
+  <main class=" mx-auto  p-5">
+    <h1 class="font-bold text-3xl	">Importent FAQ ?</h1>
+    <div class="join join-vertical w-full">
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" checked="checked" />
+        <div class="collapse-title text-xl font-medium">1. What is the Document Object Model (DOM)?</div>
+        <div class="collapse-content">
+          <p>The DOM is a programming interface for web documents. It represents the page structure as a tree of
+            objects.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title text-xl font-medium">2. How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>You can use methods like `document.querySelector()` or `document.getElementById()`.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title text-xl font-medium">3. What is event delegation in the context of the DOM, and why
+          is it useful?</div>
+        <div class="collapse-content">
+          <p>Event delegation allows you to handle events at a higher level in the DOM. It is useful for handling events
+            on
+            dynamically added elements.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title text-xl font-medium">4. How do you manipulate an element's attributes and styles
+          using the DOM?</div>
+        <div class="collapse-content">
+          <p>You can use `element.style`, `setAttribute()`, and `classList` methods to change attributes and styles.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
