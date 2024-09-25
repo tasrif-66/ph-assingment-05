@@ -44,11 +44,12 @@
 
           <!-- Donation and History Buttons -->
           <div class="mt-4 flex space-x-2">
-            <button
-              class="bg-white text-black border border-gray-300 font-semibold py-2 px-4 rounded-lg hover:bg-gray-200">
+            <button id="donation-tab"
+              class="bg-lime-200 text-black font-semibold py-2 px-4 rounded-lg hover:bg-lime-300">
               Donation
             </button>
-            <button
+
+            <button id="history-tab"
               class="bg-white text-black border border-gray-300 font-semibold py-2 px-4 rounded-lg hover:bg-gray-200">
               History
             </button>
@@ -60,14 +61,14 @@
           <!-- Coin Icon -->
           <img src="./assets/coin.png" alt="Coin Icon" class="h-6 w-6">
           <!-- Balance Amount -->
-          <span class="text-gray-700 font-semibold">55000 BDT</span>
+          <span class="text-gray-700 font-semibold"><span id="main-amont">55000</span> BDT</span>
         </div>
 
       </div>
     </nav>
   </header>
 
-  <main class=" mx-auto  p-5">
+  <main id="main-body" class=" mx-auto  p-5">
 
     <!-- card 1 -->
     <div class=" p-1 card lg:card-side bg-base-100 shadow-xl">
@@ -83,7 +84,7 @@
           <img src="./assets/coin.png" alt="">
 
           <!-- bdt blance -->
-          <span><span>500</span> BDT</span>
+          <span><span id="doneted-amount-1">500</span> BDT</span>
         </div>
 
         <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -94,10 +95,12 @@
           join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
 
         <div class="">
-          <input type="number" placeholder="Write Donation Amount" class="input input-bordered w-full " />
+          <input type="number" id="donation-1" placeholder="Write Donation Amount"
+            class="input input-bordered w-full " />
         </div>
         <div class="card-actions justify-end">
-          <button class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate Now</button>
+          <button id="donation-btn-1" class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate
+            Now</button>
         </div>
       </div>
     </div>
@@ -116,7 +119,7 @@
           <img src="./assets/coin.png" alt="">
 
           <!-- bdt blance -->
-          <span><span>500</span> BDT</span>
+          <span><span id="doneted-amount-2">500</span> BDT</span>
         </div>
 
         <h2 class="card-title">Donate for Flood Relief in Feni,Bangladesh</h2>
@@ -130,10 +133,12 @@
           need.</p>
 
         <div class="">
-          <input type="number" placeholder="Write Donation Amount" class="input input-bordered w-full " />
+          <input type="number" id="donation-2" placeholder="Write Donation Amount"
+            class="input input-bordered w-full " />
         </div>
         <div class="card-actions justify-end">
-          <button class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate Now</button>
+          <button id="donation-btn-2" class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate
+            Now</button>
         </div>
       </div>
     </div>
@@ -152,7 +157,7 @@
           <img src="./assets/coin.png" alt="">
 
           <!-- bdt blance -->
-          <span><span>500</span> BDT</span>
+          <span><span id="doneted-amount-3">500</span> BDT</span>
         </div>
 
         <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
@@ -167,10 +172,12 @@
           donation to support these brave individuals in their time of need.</p>
 
         <div class="">
-          <input type="number" placeholder="Write Donation Amount" class="input input-bordered w-full " />
+          <input type="number" id="donation-3" placeholder="Write Donation Amount"
+            class="input input-bordered w-full " />
         </div>
         <div class="card-actions justify-end">
-          <button class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate Now</button>
+          <button id="donation-btn-3" class="w-full bg-lime-200 text-black hover:bg-lime-300 btn btn-primary">Donate
+            Now</button>
         </div>
       </div>
     </div>
@@ -178,7 +185,9 @@
     <!-- card 4 -->
 
   </main>
-  <script src="./script.js"></script>
+
+  <script src="./index.js"></script>
+
 </body>
 
 </html>
